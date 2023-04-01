@@ -4,10 +4,10 @@ void main() {
 
   if (isActive) {
     print('Está activo');
-  } else {
+  } /*else {
     // Ya que desde un inicio se define como true, esta parte no se ejecutara
     print('Esta inactivo');
-  }
+  } */
 
   // Definición de bool con la posibilidad de contener valor null
   bool? isNull = null;
