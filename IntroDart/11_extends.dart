@@ -19,9 +19,13 @@ abstract class Personaje {
 }
 
 class Heroe extends Personaje {
+  int valentia = 100;
+
   Heroe(String nombre) : super(nombre);
 }
 
 class Villano extends Personaje {
+  int maldad = 100;
+
   Villano(String nombre) : super(nombre);
 }
